@@ -1,0 +1,262 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+}
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title h1 {
+    margin: 0 0 0 10px;
+    font-weight: 500;
+    font-size: 54px;
+}
+.header-title {
+    display: inline-flex;
+    align-items: center;
+}
+.web-site-logo {
+    display: inline-flex;
+    text-decoration: none;
+    color: inherit;
+}
+.up-horizontal-list-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    padding: 5px;
+
+}
+
+.web.site.logo {
+    display: flex;
+    align-items: center;
+}
+
+.flex.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex.nav li {
+    margin-left: 20px;
+}
+
+.about-button {
+    display: inline-flex;
+    padding: 15px 70px;
+    background: #C6FF00;
+    border-radius: 15px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+    font-size: 25px;
+}
+.cv-button {
+    padding: 15px 170px;
+    background: #C6FF00;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+main{
+    margin: 0 10%;
+}
+
+.wrapper h1{
+    font-weight: 500;
+    font-size: 43px;
+    margin: 0 0 25px 0;
+}
+.wrapper p{
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+}
+.main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.main-info .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+.main-info .text-content {
+    flex: 1;
+}
+
+.main-info .image {
+    display: inline-block;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.main-info .image img {
+    width: 612px;
+    height: 612px;
+    object-fit: cover
+}
+.contact-me{
+    display: inline-block;
+    padding: 10px;
+    background: #C6FF00;
+    border-radius: 15px;
+    color: inherit;
+    margin: 60px 0 0 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+.social-links {
+    margin: 10px 0 40px 0;
+}
+.social-links i{
+    font-size: 90px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+}
+.contacts {
+    margin: 20px 0 15px 0;
+    display: inline-block;
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding: 20px;
+}
+section .direct-contact h3{
+    display: inline;
+    border-radius: 15px;
+    color: inherit;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 5px;
+    background: #DEFF8F;
+
+}
+.fas.fa-envelope {
+    color: #C6FF00;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.fas.fa-phone {
+    color: #C6FF00;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.contact-list{
+    padding: 0;
+}
+.email-contact{
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.phone-contact {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.section-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-me-image {
+    display: flex;
+    margin-top: -20px;
+    padding: 0 46px 0 46px;
+    align-items: flex-end;
+}
+.container-find-out-more {
+    display: flex;
+    align-items: start;
+}
+
+.container-find-out-more > *:first-child {
+    margin-right: 0;
+}
+
+.container-find-out-more > *:not(:first-child) {
+    margin-left: 100px; /* Adjust the margin value as needed */
+}
+.find-out-more{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.find-out-more-about-content{
+    display: flex;
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.find-out-more-about-content p {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 20px 7px 20px;
+    background: #C6FF00;
+    border-radius: 15px;
+    margin: 5px 0 0 0 ;
+    align-self: flex-start;
+}
+
+.find-out-more-about-content .text-container-find-out-more {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px; /* Optional: Add some space between the text and the icon */
+}
+
+.check-my-cv{
+    display: flex;
+    background: #C6FF00;
+    border-radius: 20px;
+    padding: 20px;
+}
+.text-check-my-cv p{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 20px 7px 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 5px 0 0 0 ;
+    align-self: flex-start;
+}
+.check-my-cv .text-check-my-cv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+

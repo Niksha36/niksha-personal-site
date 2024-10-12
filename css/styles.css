@@ -265,19 +265,16 @@ section .direct-contact h3{
         padding: 5px 5px 5px 0;
     }
     .header-title h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .web-site-logo .logo-image {
-        width: 30px;
-        height:30px;
+        width: 50px;
+        height:50px;
     }
 /* here should be a burger menu further */
     .about-button, .cv-button {
-        padding: 5px 20px;
+        padding: 10px 25px;
         font-size: 14px;
-    }
-    .flex.nav li {
-        margin-left: 5%;
     }
     .flex.nav {
         margin-right: 7px;
@@ -359,6 +356,7 @@ section .direct-contact h3{
     .find-out-more{
         font-size: 20px;
         margin-top: 20px;
+        margin-left: 10px;
     }
 /*    find out more block*/
     .find-out-more-about-content{
@@ -399,5 +397,14 @@ section .direct-contact h3{
     }
     .container-find-out-more > *:not(:first-child) {
         margin-left: 0;
+    }
+
+
+    .up-horizontal-list-view {
+        margin: 0 0;
+
+    }
+    main{
+        margin: 0 0;
     }
 }

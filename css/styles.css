@@ -27,7 +27,6 @@ body{
     align-items: center;
     margin: 0 10%;
     padding: 5px;
-
 }
 
 .web.site.logo {
@@ -151,7 +150,6 @@ section .direct-contact h3{
     font-size: 30px;
     padding: 5px;
     background: #DEFF8F;
-
 }
 .fas.fa-envelope {
     color: #C6FF00;
@@ -204,7 +202,7 @@ section .direct-contact h3{
 }
 
 .container-find-out-more > *:not(:first-child) {
-    margin-left: 100px; /* Adjust the margin value as needed */
+    margin-left: 100px;
 }
 .find-out-more{
     font-size: 30px;
@@ -214,8 +212,6 @@ section .direct-contact h3{
 
 .find-out-more-about-content{
     display: flex;
-    /*flex-direction: row;*/
-    /*align-items: flex-start;*/
     background: #F3F3F3;
     border-radius: 20px;
     padding: 20px;
@@ -260,3 +256,148 @@ section .direct-contact h3{
     margin-right: 30px;
 }
 
+.footer-content{
+    height: 10%;
+    margin: 10%;
+}
+@media (max-width: 768px) {
+    .up-horizontal-list-view {
+        padding: 5px 5px 5px 0;
+    }
+    .header-title h1 {
+        font-size: 20px;
+    }
+    .web-site-logo .logo-image {
+        width: 30px;
+        height:30px;
+    }
+/* here should be a burger menu further */
+    .about-button, .cv-button {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .flex.nav li {
+        margin-left: 5%;
+    }
+    .flex.nav {
+        margin-right: 7px;
+    }
+/* */
+    .main-info{
+        margin: 15px 0;
+    }
+    .main-info .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-info .image {
+        order: 1;
+        margin-left: 0; /* Reset margin */
+        margin-bottom: 15px; /* Add some space below the image */
+    }
+
+    .main-info .text-content {
+        order: 2;
+    }
+
+    .main-info .text-content h1 {
+        font-size: 20px;
+    }
+
+    .main-info .text-content p {
+        font-size: 16px;
+    }
+    .main-info .image img {
+        width: 100%; /* Make the image take up the full width of its container */
+        height: auto; /* Maintain the aspect ratio */
+    }
+    .wrapper h1{
+        margin: 0 0 12px 0;
+    }
+
+/*contact me block*/
+    .contact-me{
+        font-size: 20px;
+        padding: 7px 20px 7px 20px;
+        margin-top: 15px;
+
+    }
+    .contact-me-image{
+        display: none;
+    }
+    .social-links {
+        margin: 0 0 25px 0;
+    }
+    .social-links i{
+        font-size: 50px;
+        margin-right: 10px;
+    }
+    section .direct-contact h3{
+        font-size: 20px;
+    }
+    .contacts {
+        padding: 10px;
+    }
+    .fas.fa-envelope {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .fas.fa-phone {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .email-contact{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .phone-contact {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .find-out-more{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+/*    find out more block*/
+    .find-out-more-about-content{
+        margin-bottom: 20px;
+    }
+    .find-out-more-about-content p {
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        margin: 5px 0 0 0 ;
+    }
+    .search-icon{
+        width: 70px;
+        height: 70px;
+    }
+    .find-out-more-about-content{
+        padding: 10px;
+    }
+    .find-out-more-about-content .text-container-find-out-more {
+        white-space: nowrap;
+        margin-right: 15px;
+    }
+    .container-find-out-more {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    /**/
+    .check-my-cv{
+        padding: 10px;
+    }
+    .text-check-my-cv p{
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+    }
+    .check-my-cv .text-check-my-cv{
+        white-space: nowrap;
+        margin-right: 0;
+    }
+    .container-find-out-more > *:not(:first-child) {
+        margin-left: 0;
+    }
+}

@@ -1,3 +1,7 @@
+::selection {
+    background: #C6FF00;
+    color: #000000; /* Optional: Change the text color within the selection */
+}
 body{
     font-family: "Space Grotesk", sans-serif;
     font-style: normal;
@@ -59,6 +63,11 @@ body{
     color: inherit;
     font-size: 25px;
 }
+.about-button:hover {
+    background: #043933; /* Change the background color on hover */
+    border-color: #043933;
+    color: white;
+}
 .cv-button {
     padding: 15px 170px;
     background: #C6FF00;
@@ -72,6 +81,11 @@ body{
     text-decoration: none;
     color: inherit;
     font-size: 25px;
+}
+.cv-button:hover {
+    background: #043933; /* Change the background color on hover */
+    border-color: #043933; /* Optional: Change the border color on hover */
+    color: white;
 }
 main{
     margin: 0 10%;
@@ -265,6 +279,7 @@ section .direct-contact h3{
     height: 10%;
     margin: 10%;
 }
+
 @media (max-width: 992px) {
     .up-horizontal-list-view {
         padding: 5px 5px 5px 0;

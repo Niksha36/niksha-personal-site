@@ -2,6 +2,12 @@
     background: #C6FF00;
     color: #000000; /* Optional: Change the text color within the selection */
 }
+#find-out-more-about-content {
+    cursor: pointer;
+}
+#check-my-cv{
+    cursor: pointer;
+}
 body{
     font-family: "Space Grotesk", sans-serif;
     font-style: normal;
